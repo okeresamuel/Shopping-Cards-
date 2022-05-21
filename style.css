@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&family=Roboto:wght@300&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  -webkit-tap-highlight-color: transparent;
+}
+/* only one section  */
+p {
+  max-width: 80%;
+  margin: auto;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  position: relative;
+  top: 50px;
+  bottom: 50px;
+  padding-bottom: 30px;
+}
+.add_to_cartThree,
+.add_to_cartTwo,
+.add_to_cartOne {
+  text-align: center;
+  color: white;
+  padding: 30px;
+  margin-top: 24px;
+}
+
+.boxOne,
+.boxTwo,
+.boxThree {
+  background-color: #ffffff;
+}
+.shoeImg,
+.watchImg,
+.shirtImg {
+  text-align: center;
+}
+.shoePrice {
+  color: #ff0000;
+}
+.shirtPrice {
+  color: #ffa600;
+}
+.watchPrice {
+  color: #07af6cdd;
+}
+.greenDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 55%;
+  background-color: #07af6cdd;
+  position: relative;
+  bottom: 46px;
+}
+.redDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 55%;
+  background-color: #ff0000;
+  position: relative;
+  bottom: 46px;
+}
+.orangeDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 55%;
+  background-color: #ffa500;
+  position: relative;
+  bottom: 46px;
+}
+.boxOne,
+.boxTwo,
+.boxThree {
+  border-radius: 3px;
+  padding: 12px 25px 1px 30px;
+  box-shadow: 1px 9px 23px -6px #8080807c;
+  cursor: pointer;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+.boxOne {
+  background-image: linear-gradient(to bottom, #ffffff 85%, #07af6cdd 20%);
+  flex-basis: 300px;
+  margin: 10px;
+}
+.boxTwo {
+  background-image: linear-gradient(to bottom, #ffffff 85%, #ff0000 20%);
+  flex-basis: 300px;
+  margin: 10px;
+}
+.boxThree {
+  background-image: linear-gradient(to bottom, #ffffff 85%, #ffa600 20%);
+  margin: 10px;
+  flex-basis: 300px;
+  align-self: flex-start;
+}
+.boxOne:hover {
+  transform: scale(1.01);
+}
+.boxTwo:hover {
+  transform: scale(1.01);
+}
+.boxThree:hover {
+  transform: scale(1.01);
+}
+@media (max-width: 1147px) and (min-width: 777px) {
+  .boxThree {
+    position: relative;
+    left: -190px;
+  }
+}
+
+@media (min-width: 751px) {
+    .boxThree {
+      position: relative;
+      left: -190px;
+    }
+  }
+
+  
+@media (min-width: 1126px){
+    .boxThree {
+      position: relative;
+      left: 0px;
+    }
+  }
+
+/* shapes */
+.square {
+  background-color: #ffffff;
+  border: 3px solid orangered;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 40px;
+  transform: rotateZ(45deg);
+}
+/* top */
+.ShapeCover {    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+.circle {
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
+  border: 3px solid orange;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+}
+.squareTwo {
+  background-color: #ffffff;
+  border: 3px solid orangered;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 40px;
+  right: 40px;
+  transform: rotateZ(45deg);
+}
+/* bottom shapes */
+.bottomShapes{
+    display:flex;
+    justify-content:space-between;
+}
+
+.circleBottom {
+    background-color: #ffffff;
+    width: 10px;
+    height: 10px;
+    border: 3px solid #07af6cdd;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 90px;
+  }
+  .TriangleBottom{
+    background-color: #ffffff;
+    width: 23px;
+    height: 19px;
+    border:3px solid #ffa500;
+    transform: rotateZ(45deg);
+    position:absolute;
+    bottom: -27px;
+    right:30px;
+}
+img {
+  transform: scale(1);
+}
